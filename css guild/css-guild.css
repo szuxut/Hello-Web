@@ -1,0 +1,50 @@
+* {
+    padding:0;
+    margin:0;
+}
+#one {
+    float: left;
+}
+#p1 {
+}
+/*section {
+    border:1px solid blue;
+}
+
+img {
+    float: left;
+}
+p:after {
+    content: '.';
+    height:0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+footer {border:1px solid red;}
+
+
+
+section {
+    float:left;
+    width:100%;
+}
+
+
+#paragraph {
+}
+img {
+    float: left;
+}
+
+#footer {
+}
+
+
+#wrapper {
+    float: left;
+    width:100%;
+}
+img {
+    float: left;
+}*/

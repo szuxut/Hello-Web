@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+header {
+    font-family:Metrophobic;
+    font-size:1.5em;
+    letter-spacing:-.05em;
+    color:#fff;
+    padding:5px 10px;
+    background:deeppink;
+}
+nav {
+    display: table-cell;
+    width:150px;
+    padding:10px;
+    background:#dcd9c0;
+}
+article {
+    display: table-cell;
+    background: #ffed53;
+    padding:10px 20px;
+}
+aside {
+    display:table-cell;
+    width:210px;
+    padding:10px;
+    background:#3f7ccf;
+}
+
+footer {
+    text-align: center;
+    width:100%;
+    clear: both;
+    background: black;
+    color: white;
+    font-size:80%;
+}
