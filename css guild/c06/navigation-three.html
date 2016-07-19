@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .multi_drop_menu {
+            font:1em helvetica,arial,sans-serif;
+            float: left;
+        }
+        .multi_drop_menu a {
+            display: block;
+            color: #555;
+            background: #eee;
+            padding:.2em 1em;
+            border:3px white;
+        }
+        .multi_drop_menu a:hover {
+            color: #fff;
+            background: #aaa;
+        }
+        .multi_drop_menu a:active {
+            background: #fff;
+            color: #ccc;
+        }
+        .multi_drop_menu * {
+            margin:0;
+            padding:0;
+        }
+        .multi_drop_menu ul {
+            float: left;
+        }
+        .multi_drop_menu li {
+            float:left;
+            list-style-type: none;
+            position: relative;
+        }
+        .multi_drop_menu li a {
+            display: block;
+            border-right-style: solid;
+
+            text-decoration: none;
+        }
+        .multi_drop_menu li:last-child a {
+            border-right-style: none;
+        }
+        .multi_drop_menu li ul {
+            display: none;
+        }
+        #test {
+
+        }
+
+    </style>
+</head>
+<body>
+<nav class="multi_drop_menu">
+    <!-- one level start-->
+    <ul>
+        <li><a href="#">Power</a> </li>
+        <li><a href="#">Money</a> </li>
+        <li><a href="#">Love</a> </li>
+        <li><a href="#">Fame</a>
+            <!-- two level start-->
+            <ul>
+                <li><a href="#">Sports Star</a> </li>
+                <li><a href="#">Movie Star</a> </li>
+                <li><a href="#">Rock Star</a>
+                    <!-- three level start-->
+                    <ul>
+                        <li><a href="#">Bruce Springsteen</a>
+                        <li><a href="#">Bono</a>
+                        <li><a href="#">Mick Jagger</a>
+                        <li><a href="#">Bob Dylan</a>
+                    </ul>
+                    <!-- three level ends -->
+                </li>
+            </ul>
+            <!-- two level ends-->
+        </li>
+    </ul>
+    <!-- one level ends-->
+</nav>
+</body>
+</html>
