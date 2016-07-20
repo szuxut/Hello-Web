@@ -14,7 +14,7 @@
     margin:0 auto;
 }
 #threecolwrap {
-    background:url(c05/bg_tile_170pxw.png) top right repeat-y;/*人造栏技术*/
+    background:url(../c05/bg_tile_170pxw.png) top right repeat-y;/*人造栏技术*/
     float:left;
     width:100%;
 }
@@ -22,7 +22,7 @@
     float: left;
     width:100%;
     margin-right:-170px;
-    background:url(c05/bg_tile_150pxw.png) repeat-y;/*人造栏技术*/
+    background:url(../c05/bg_tile_150pxw.png) repeat-y;/*人造栏技术*/
 }
 #onecol {
     float: left;
