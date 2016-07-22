@@ -196,3 +196,73 @@ section#feature_area aside {
     float: left;
 }
 
+/* form */
+form.signin {
+    width:19em;
+    float: right;
+    background: #fff;
+    border-radius:10px 0 10px 0;
+    box-shadow: 0 12px 8px -9px #555;
+}
+.signin fieldset {border:0;margin:10px 14px;}
+.signin legend span {
+    font-family:Lato, helvetica,sans-serif;
+    font-weight:700;
+    font-size:1.3em;
+    line-height:1.1em;
+    color: #4eb8ea;
+    letter-spacing: -.05em;
+}
+.signin section {
+    overflow: hidden;
+    padding:.25em 0;
+}
+.signin section label {
+    font-family:"Source Sans Pro", helvetica,sans-serif;
+    font-weight:400;
+    float: left;
+    width:5em;
+    margin:.5em .3em 0 0;
+    line-height:1.1;
+    color: #555;
+}
+.signin section input {
+    float: left;
+    width:10.5em;
+    margin:.2em 0 0 .5em;
+    padding:3px 10px 2px;
+    color: #555;
+    font-size:.8em;
+    outline:none;
+    border-radius: 10px 0 10px 0;
+}
+input:-webkit-autofill {color:#fff !important;}
+.signin section input[type=submit] {
+    float: left;
+    width:auto;
+    margin:0 2px 3px 0;
+    padding:0px 8px 3px;
+    font-size:1em;
+    font-weight:800;
+    color:#fff;
+    border:none;
+    background: #d6e636;
+    box-shadow: 1px 1px 2px #888;
+}
+.signin section p {
+    float: left;
+    clear: both;
+    margin:.2em 0 0;
+    text-align: right;
+    font-size:.8em;
+    line-height:1;
+    color: #555;
+}
+.signin section p a {
+    color: #333;}
+.signin section p a:hover {
+    display: block;
+    color: #f00;
+}
+.signin section p.direction {
+    display: none;}
