@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        * {margin:0; padding:0;}
+        li {list-style:none;background-color:deeppink;padding:10px;width:60px;text-align:center;}
+        #top>li {border-right:1px solid white;border-bottom:1px solid white;}
+        #level1li {position:relative;}
+        #level1li>ul,#level2li>ul {margin-top:11px;}
+        #level2,#level3 {display:none;}
+        #level1li:hover>ul {display:block;}
+        #level2 {position:absolute;left:0px;}
+        #level3 {position:absolute;left:81px;}
+        #level2li:hover>ul {display:block;}
+        #top>li {float:left;}
+    </style>
+</head>
+<body>
+<ul id="top">
+    <li>AAAA</li>
+    <li>BBBB</li>
+    <li>CCCC</li>
+    <li>DDDD</li>
+    <li id="level1li">EEEE
+        <ul id="level2">
+            <li>aaaa</li>
+            <li>bbbb</li>
+            <li>cccc</li>
+            <li id="level2li">dddd
+                <ul id="level3">
+                    <li>1111</li>
+                    <li>2222</li>
+                    <li>3333</li>
+                    <li>4444</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+</ul>
+</body>
+</html>
