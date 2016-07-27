@@ -9,7 +9,7 @@
         body {font-size:1em;border-radius:20px;}
         p {background:deeppink; color:white; border-radius:20px; padding:.5em 0;}
         p.single {overflow: hidden; text-overflow:ellipsis;line-height:2em;width:20em;height:2em;}
-        p#multi {height:3em;width:20em;}
+        p#multi {width:20em;}
     </style>
 
 
@@ -17,7 +17,8 @@
         window.onload = function(){
             var text = document.getElementById('multi'),
                     str = text.innerHTML,
-                    textLeng = 46;
+                    textLeng = 46,
+                    singleLeng = 26;
             if(str.length > textLeng ){
                 text .innerHTML = str.substring(0,textLeng )+"&#8230;";
             }
@@ -28,7 +29,7 @@
 <h3>单行缩略号</h3>
 <p class="single"><nobr>Krazy清新减龄显瘦32支纯棉撞色polo领海魂条纹学院风弹力连衣裙</nobr></p>
 
-<h3>多行缩略号</h3>
-<p id="multi">Krazy清新减龄显瘦32支纯棉撞色polo领海魂条纹学院风弹力连衣裙Krazy清新减龄显瘦32支纯棉撞色polo领海魂条纹学院风弹力连衣裙</p>
+<h3>两行缩略号</h3>
+<p id="multi">Krazy清新减龄显瘦32支<!--纯棉撞色polo领海魂条纹学院风弹力连衣裙Krazy清新减龄显瘦32支纯棉撞色polo领海魂条纹学院风弹力连衣裙--></p>
 </body>
 </html>
