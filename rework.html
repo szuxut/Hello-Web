@@ -4,41 +4,108 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style type="text/css">
-        * {margin:0; padding:0;}
-        li {list-style:none;background-color:deeppink;padding:10px;width:60px;text-align:center;}
-        #top>li {border-right:1px solid white;border-bottom:1px solid white;}
-        #level1li {position:relative;}
-        #level1li>ul,#level2li>ul {margin-top:11px;}
-        #level2,#level3 {display:none;}
-        #level1li:hover>ul {display:block;}
-        #level2 {position:absolute;left:0px;}
-        #level3 {position:absolute;left:81px;}
-        #level2li:hover>ul {display:block;}
-        #top>li {float:left;}
+        /*
+        *{margin:0;padding:0px;}
+        ul,li {float:left;text-align:center;}
+        li {list-style:none;position:relative;width:100px;}
+
+        li:hover ul {display:block;}
+        li:hover ul ul {display:none;}
+        li li:hover ul {display:block;}
+
+        li ul {display:none;position:absolute;top:100%;}
+        li li ul {position:absolute;left:100%;top:0;}
+        li li {position:relative;}
+        */
+
+        /*VISUAL STYLING*/
+        body {margin:100px;background:hotpink;}
+        * {margin:0;padding:0;font:1em helvetica,arial,sans-serif;}
+        .multi_drop_menu > ul > li {border-right:2px solid transparent;}
+        .multi_drop_menu > ul > li:last-child {border-style:none;}
+        .multi_drop_menu li li {border-bottom:2px solid transparent;}
+        .multi_drop_menu li > ul {border:2px solid transparent;}
+        .multi_drop_menu li li:last-child {border-style:none;}
+        .multi_drop_menu li {background:#eee;list-style:none;position:relative;width:80px;height:30px;line-height:30px;
+            text-align:center;background-clip:padding-box;}
+
+        /*FUNCTIONAL STYLING*/
+
+        /*level 1*/
+        .multi_drop_menu ul {float:left;}
+        .multi_drop_menu li {float:left;}
+
+        /*level 2*/
+        .multi_drop_menu li ul {display:none;position:absolute;top:100%;left:0;}
+        .multi_drop_menu li:hover > ul {display: block;}
+        .multi_drop_menu li li {position:relative;}
+
+        /*level 3*/
+        .multi_drop_menu li li > ul {position:absolute;left:100%;top:0;}
+
+
     </style>
 </head>
 <body>
-<ul id="top">
-    <li>AAAA</li>
-    <li>BBBB</li>
-    <li>CCCC</li>
-    <li>DDDD</li>
-    <li id="level1li">EEEE
-        <ul id="level2">
-            <li>aaaa</li>
-            <li>bbbb</li>
-            <li>cccc</li>
-            <li id="level2li">dddd
-                <ul id="level3">
-                    <li>1111</li>
-                    <li>2222</li>
-                    <li>3333</li>
-                    <li>4444</li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-
-</ul>
+<nav class="multi_drop_menu">
+    <ul>
+        <li>AAAA
+            <ul>
+                <li>bbbb</li>
+                <li>bbbb</li>
+                <li>bbbb
+                    <ul>
+                        <li>cccc</li>
+                        <li>cccc</li>
+                        <li>cccc</li>
+                        <li>cccc</li>
+                    </ul>
+                </li>
+                <li>bbbb</li>
+            </ul>
+        </li>
+        <li>BBBB</li>
+        <li>CCCC
+            <ul>
+                <li>aaaa</li>
+                <li>bbbb</li>
+                <li>cccc</li>
+                <li>dddd
+                    <ul>
+                        <li>1111</li>
+                        <li>2222</li>
+                        <li>3333</li>
+                        <li>4444</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>DDDD</li>
+        <li>EEEE
+            <ul>
+                <li>aaaa</li>
+                <li>bbbb</li>
+                <li>cccc</li>
+                <li>dddd
+                    <ul>
+                        <li>1111</li>
+                        <li>2222</li>
+                        <li>3333</li>
+                        <li>4444</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>FFFF</li>
+        <li>GGGG
+            <ul>
+                <li>aaaa</li>
+                <li>aaaa</li>
+                <li>aaaa</li>
+                <li>aaaa</li>
+            </ul>
+        </li>
+    </ul>
+</nav>
 </body>
 </html>
