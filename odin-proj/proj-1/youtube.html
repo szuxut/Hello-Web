@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {padding:0;margin:0}
+        body {background:ghostwhite;font:.9em helvetica,arial,sans-serif;;}
+
+        #wraper {margin:12px auto;width:85%;background:ghostwhite;height:1600px;}
+        #left {background:ghostwhite;width:60%;float:left;}
+        #right {background:white;;width:38%;height:1500px;float:left;margin-left:12px;}
+
+        footer {clear:both;width:100%;background:white;height:150px;}
+        .author,.summary,.comments {margin-top:12px;background:white;}
+        .video {height:400px;margin-top:0px;background:white;}
+        .video img {max-width:100%;height:400px;}
+        .comments {height:600px;}
+
+        .figure {margin:12px;border:1px solid #efefef;overflow:hidden;}
+        .figure article {float:left;width:65%;padding-left:.5em;height:90px;margin-left:5px;}
+        .figure img {float:left;}
+        .figure p {font-size:.9em;line-height:1.5em;margin:0;}
+        p.title {height:50%; font-weight:400;font-weight:bold;}
+        p.byWho {height:25%;}
+        p.views {height:25%;}
+        p.byWho, p.views {font-size:.8em;}
+
+        .author {padding:20px 10px;background:white;height:125px;}
+        .author h3 {margin-left:10px;}
+        .author section {border-bottom:1px solid #dbdbdb;margin:10px 10px 10px;overflow:hidden;padding-bottom:10px;}
+        .author img{float:left;width:55px;}
+        .author section p {padding-left:65px;font-size:.9em;margin-top:2px;}
+        .author p + div {float:left;margin-top:12px;width:150px;margin-left:10px;}
+        .author div a {display:block;float:left;width:80px;height:26px;background:red;border-style:none;color:white;text-decoration:none;line-height:26px;text-align:center;font-size:.9em;}
+        #subscribe {float:left;border-width:1px 1px 1px 0;border-style:solid;border-color:black;font-size:.9em;width:3em;line-height:23px;margin-top:.5px;text-align:center;border-color: #929292;}
+        #views {float:right;font-size:1.2em;margin-top:-40px;;width:150px;text-align:right;height:20px;border-bottom:3px solid deepskyblue;margin-right:10px;height:28px;}
+        .author h3 + div {background:white;}
+
+        .author .bg {background:white;margin-left:10px;line-height:30px;overflow:hidden;float:left;width:90px;}
+        .author .bg_right {background:white;margin-right:0px;line-height:30px;overflow:hidden;float:right;width:90px;}
+
+        .author p.icon {float:left;width:30px;background:#dbdbdb;height:30px;}
+        .author p.icon + p {float:left;width:50px;margin-left:10px;font-size:.9em;}
+
+        .summary {clear:both;padding:20px 10px;height:110px;}
+        #showMore {text-align:center;font-weight:bold;padding-top:10px;font-size:.8em;color:#dbdbdb;}
+        #summaryTitle {font-weight:bold;}
+        #summaryTitle + p {border-bottom:1px solid #dbdbdb;padding-bottom:10px;margin-top:.5em;line-height:1.2em;;}
+
+        .comments {padding:20px 10px;}
+        #comment1 {border-bottom:1px solid #dbdbdb;}
+        #comment1 img {margin-top:20px;display:block;padding-bottom:20px;}
+        .comment2 {margin-top:15px;float:left;width:100%;}
+        .comment2 img {float:left;}
+        .comment2 div {float:left;width:90%;margin-left:10px;font-size:.9em;
+        line-height:1.1em;}
+        .comment2 p {padding-bottom:10px;}
+
+        nav {width:100%;height:50px;background:white;}
+        nav div {float:left;height:30px;width:90px;margin-left:40px;background:red;margin-top:10px;}
+        nav input#search {float:left;width:550px;height:24px;margin-top:10px;margin-right:-1px;margin-left:70px;}
+        nav input#searchBtw {width:60px;float:left;height:30px;margin-top:10px;}
+        nav input#searchBtw {width:60px;float:left;height:30px;margin-top:10px;}
+        nav input#uploadBtw {float:right;height:30px;margin-top:10px;margin-right:20px;width:60px;}
+        nav img {float:right;margin-right:20px;width:30px;margin-top:10px;border-radius:15px;}
+
+    </style>
+</head>
+<body>
+<nav>
+    <div></div>
+    <input type="text" id="search" name="search" placeholder="Search"/>
+    <input type="submit" name="upload" id="searchBtw" value="Search"/>
+    <img src="avatar.jpg" alt="avatar"/>
+    <input type="submit" name="upload" id="uploadBtw" value="upload"/>
+
+</nav>
+<div id="wraper">
+    <section id="left">
+        <article class="video">
+            <img src="video.jpg"/>
+        </article>
+        <article class="author">
+               <h3>Contributing to Open Source Part I: The Easy Way </h3>
+                <section>
+                    <img src="photo.jpg"/>
+                    <p>The Odin Project</p>
+                    <div>
+                        <a href="#">Subscrie</a>
+                        <span id="subscribe">271</span>
+                    </div>
+                </section>
+                <h3 id="views">16,608 views</h3>
+                <div class="bg">
+                    <p class="icon"></p>
+                    <p>Add to</p>
+                </div>
+                <div class="bg">
+                    <p class="icon"></p>
+                    <p>Share</p>
+                </div>
+                <div class="bg">
+                    <p class="icon"></p>
+                    <p>More</p>
+                </div>
+                <div class="bg_right">
+                    <p class="icon"></p>
+                    <p class="last">102</p>
+                </div>
+                <div class="bg_right">
+                    <p class="icon"></p>
+                    <p class="last">0</p>
+                </div>
+        </article>
+
+
+        <article class="summary">
+            <p id="summaryTitle">Published on Feb 27, 2014</p>
+            <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software </p>
+            <p id="showMore">SHOW MORE</p>
+        </article>
+        <article class="comments">
+            <div>
+                <p>COMMENTS*4</p>
+                <div id="comment1">
+                    <img src="my-photo.jpg"/>
+                </div>
+
+                <div class="comment2">
+                    <img src="sampath-sm.jpg"/>
+                    <div>
+                        <p>Sampath Lokuge <span>7 moths ago</span></p>
+                        <p>Wow this video was super helpful, clear, and concise. Thank you very much.﻿</p>
+                        <section>
+                            <a href="#">Reply </a>
+                            <div></div>
+                            <div></div>
+                        </section>
+                    </div>
+                </div>
+                <div class="comment2">
+                    <img src="sampath-sm.jpg"/>
+                    <div>
+                        <p>Sampath Lokuge <span>7 moths ago</span></p>
+                        <p>Wow this video was super helpful, clear, and concise. Thank you very much.﻿</p>
+                        <section>
+                            <a href="#">Reply </a>
+                            <div></div>
+                            <div></div>
+                        </section>
+                    </div>
+                </div>
+                <div class="comment2">
+                    <img src="sampath-sm.jpg"/>
+                    <div>
+                        <p>Sampath Lokuge <span>7 moths ago</span></p>
+                        <p>Wow this video was super helpful, clear, and concise. Thank you very much.﻿</p>
+                        <section>
+                            <a href="#">Reply </a>
+                            <div></div>
+                            <div></div>
+                        </section>
+                    </div>
+                </div>
+                <div class="comment2">
+                    <img src="sampath-sm.jpg"/>
+                    <div>
+                        <p>Sampath Lokuge <span>7 moths ago</span></p>
+                        <p>Wow this video was super helpful, clear, and concise. Thank you very much.﻿</p>
+                        <section>
+                            <a href="#">Reply </a>
+                            <div></div>
+                            <div></div>
+                        </section>
+                    </div>
+                </div>
+                <div class="comment2">
+                    <img src="sampath-sm.jpg"/>
+                    <div>
+                        <p>Sampath Lokuge <span>7 moths ago</span></p>
+                        <p>Wow this video was super helpful, clear, and concise. Thank you very much.﻿</p>
+                        <section>
+                            <a href="#">Reply </a>
+                            <div></div>
+                            <div></div>
+                        </section>
+                    </div>
+                </div>
+                <div class="comment2">
+                    <img src="sampath-sm.jpg"/>
+                    <div>
+                        <p>Sampath Lokuge <span>7 moths ago</span></p>
+                        <p>Wow this video was super helpful, clear, and concise. Thank you very much.﻿</p>
+                        <section>
+                            <a href="#">Reply </a>
+                            <div></div>
+                            <div></div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div>
+                <form method="post" action="#">
+                    <select id="commentSelect" name="commentSelect">
+                        <option value="1">Top comments</option>
+                        <option value="2">Newest first</option>
+                    </select>
+                </form>
+                <div>
+                    <img src="sampath-sm.jpg"/>
+                    <p>Sampath Lokuge <span>7 moths ago</span></p>
+                    <p>Wow this video was super helpful, clear, and concise. Thank you very much.﻿</p>
+                    <section>
+                        <a href="#">Reply </a>
+                        <div></div>
+                        <div></div>
+                    </section>
+                </div>
+            </div>
+            -->
+        </article>
+    </section>
+
+    <aside id="right">
+        <section class="figure">
+            <img src="hqdefault.jpg"/>
+            <article>
+                <p class="title">Who killed Joffrey? Watch the wedding again and you'll see!</p>
+                <p class="byWho">Super Guitar Hero</p>
+                <p class="views">59,969 views</p>
+                </article>
+        </section>
+        <section class="figure">
+            <img src="hqdefault.jpg"/>
+            <article>
+                <p class="title">Who killed Joffrey? Watch the wedding again and you'll see!</p>
+                <p class="byWho">Super Guitar Hero</p>
+                <p class="views">59,969 views</p>
+            </article>
+        </section>
+        <section class="figure">
+            <img src="hqdefault.jpg"/>
+            <article>
+                <p class="title">Who killed Joffrey? Watch the wedding again and you'll see!</p>
+                <p class="byWho">Super Guitar Hero</p>
+                <p class="views">59,969 views</p>
+            </article>
+        </section>
+        <section class="figure">
+            <img src="hqdefault.jpg"/>
+            <article>
+                <p class="title">Who killed Joffrey? Watch the wedding again and you'll see!</p>
+                <p class="byWho">Super Guitar Hero</p>
+                <p class="views">59,969 views</p>
+            </article>
+        </section>
+        <section class="figure">
+            <img src="hqdefault.jpg"/>
+            <article>
+                <p class="title">Who killed Joffrey? Watch the wedding again and you'll see!</p>
+                <p class="byWho">Super Guitar Hero</p>
+                <p class="views">59,969 views</p>
+            </article>
+        </section>
+        <section class="figure">
+            <img src="hqdefault.jpg"/>
+            <article>
+                <p class="title">Who killed Joffrey? Watch the wedding again and you'll see!</p>
+                <p class="byWho">Super Guitar Hero</p>
+                <p class="views">59,969 views</p>
+            </article>
+        </section>
+        <section class="figure">
+            <img src="hqdefault.jpg"/>
+            <article>
+                <p class="title">Who killed Joffrey? Watch the wedding again and you'll see!</p>
+                <p class="byWho">Super Guitar Hero</p>
+                <p class="views">59,969 views</p>
+            </article>
+        </section>
+        <section class="figure">
+            <img src="hqdefault.jpg"/>
+            <article>
+                <p class="title">Who killed Joffrey? Watch the wedding again and you'll see!</p>
+                <p class="byWho">Super Guitar Hero</p>
+                <p class="views">59,969 views</p>
+            </article>
+        </section>
+        <section class="figure">
+            <img src="hqdefault.jpg"/>
+            <article>
+                <p class="title">Who killed Joffrey? Watch the wedding again and you'll see!</p>
+                <p class="byWho">Super Guitar Hero</p>
+                <p class="views">59,969 views</p>
+            </article>
+        </section>
+        <section class="figure">
+            <img src="hqdefault.jpg"/>
+            <article>
+                <p class="title">Who killed Joffrey? Watch the wedding again and you'll see!</p>
+                <p class="byWho">Super Guitar Hero</p>
+                <p class="views">59,969 views</p>
+            </article>
+        </section>
+        <section class="figure">
+            <img src="hqdefault.jpg"/>
+            <article>
+                <p class="title">Who killed Joffrey? Watch the wedding again and you'll see!</p>
+                <p class="byWho">Super Guitar Hero</p>
+                <p class="views">59,969 views</p>
+            </article>
+        </section>
+        <section class="figure">
+            <img src="hqdefault.jpg"/>
+            <article>
+                <p class="title">Who killed Joffrey? Watch the wedding again and you'll see!</p>
+                <p class="byWho">Super Guitar Hero</p>
+                <p class="views">59,969 views</p>
+            </article>
+        </section>
+    </aside>
+</div>
+<footer>
+
+</footer>
+</body>
+</html>
