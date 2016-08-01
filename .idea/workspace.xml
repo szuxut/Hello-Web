@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="437d373a-e4d2-4653-bd5e-23832f62846a" name="Default" comment="" />
+    <ignored path="dev.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="dev" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/js/comparison-operator-continued.js" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/comparison-operator.html" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/js/comparison-operator.js" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/comparison-operator-continued.html" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/js/logical-and.js" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/logical-and.html" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/js/logical-or-logical-not.js" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/logical-or-logical-not.html" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/js/if-statement.js" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/if-statement.html" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/if-statement-with-function.html" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/js/if-statement-with-function.js" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/js/if-else-statement.js" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/if-else-statement.html" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/switch-statement.html" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/js/switch-statement.js" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/for-loop.html" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/js/for-loop.js" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/while-loop.html" />
+        <option value="$PROJECT_DIR$/js_practise/chapter-04/js/while-loop.js" />
+        <option value="$PROJECT_DIR$/css guild/css-guild.html" />
+        <option value="$PROJECT_DIR$/css guild/css-guild.css" />
+        <option value="$PROJECT_DIR$/css guild/c04/c04.js" />
+        <option value="$PROJECT_DIR$/css guild/c04/c04.html" />
+        <option value="$PROJECT_DIR$/css guild/c04/c04.css" />
+        <option value="$PROJECT_DIR$/css guild/c05/c05.html" />
+        <option value="$PROJECT_DIR$/css guild/c05/c05.css" />
+        <option value="$PROJECT_DIR$/css guild/test.html" />
+        <option value="$PROJECT_DIR$/css guild/test1.html" />
+        <option value="$PROJECT_DIR$/css guild/test1.css" />
+        <option value="D:/迅雷下载/stylin3_code_files/chap5_code_files/figures5.10a-5.10b.html" />
+        <option value="$PROJECT_DIR$/css guild/test.css" />
+        <option value="$PROJECT_DIR$/css guild/c05/table-cell.html" />
+        <option value="$PROJECT_DIR$/css guild/c05/tabel-cell.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1215" />
+    <option name="y" value="267" />
+    <option name="width" value="1233" />
+    <option name="height" value="1417" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hello-Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hello-Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hello-Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/download/stylin3_code_files" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css guild/tmp" />
+      <recent name="D:\BaiduYunDownload\dev\css guild\c05" />
+      <recent name="$PROJECT_DIR$/css guild/c04" />
+      <recent name="$PROJECT_DIR$/css guild" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BaiduYunDownload\dev\css guild\c05" />
+      <recent name="D:\BaiduYunDownload\dev\css guild" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="437d373a-e4d2-4653-bd5e-23832f62846a" name="Default" comment="" />
+      <created>1467426113631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1467426113631</updated>
+      <workItem from="1467426114733" duration="117000" />
+      <workItem from="1468238277039" duration="3473000" />
+      <workItem from="1468421220816" duration="17493000" />
+      <workItem from="1468640482994" duration="22431000" />
+      <workItem from="1468809000795" duration="14815000" />
+      <workItem from="1469023814281" duration="1509000" />
+      <workItem from="1469191268662" duration="1761000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="61599000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1215" y="267" width="1233" height="1417" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31930694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css guild/c05/c05.css" />
+    <entry file="file://$PROJECT_DIR$/css guild/c05/c05.html" />
+    <entry file="file://$PROJECT_DIR$/css guild/test.html" />
+    <entry file="file://$PROJECT_DIR$/css guild/test.css" />
+    <entry file="file://$PROJECT_DIR$/css guild/tmp/test1.html" />
+    <entry file="file://$PROJECT_DIR$/css guild/tmp/test1.css" />
+    <entry file="file://$PROJECT_DIR$/css guild/tmp/css-guild.html" />
+    <entry file="file://$PROJECT_DIR$/css guild/tmp/css-guild.css" />
+    <entry file="file://$PROJECT_DIR$/css guild/test.html" />
+    <entry file="file://$PROJECT_DIR$/css guild/test.css" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/js/comparison-operator.js" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/comparison-operator.html" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/comparison-operator-continued.html" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/js/comparison-operator-continued.js" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/logical-and.html" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/js/logical-and.js" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/js/switch-statement.js" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/switch-statement.html" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/if-else-statement.html" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/js/if-else-statement.js" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/js/if-statement-with-function.js" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/if-statement.html" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/js/if-statement.js" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/if-statement-with-function.html" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/logical-or-logical-not.html" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/js/logical-or-logical-not.js" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/while-loop.html" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/js/while-loop.js" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/for-loop.html" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-04/js/for-loop.js" />
+    <entry file="file://$PROJECT_DIR$/js_practise/chapter-01/index.html" />
+    <entry file="file://$PROJECT_DIR$/css guild/tmp/javhd-logo.png" />
+    <entry file="file://$PROJECT_DIR$/css guild/c04/c04.js" />
+    <entry file="file://$PROJECT_DIR$/css guild/tmp/css-guild.css" />
+    <entry file="file://$PROJECT_DIR$/css guild/tmp/css-guild.html" />
+    <entry file="file://$PROJECT_DIR$/css guild/c04/c04.css" />
+    <entry file="file://$PROJECT_DIR$/css guild/c04/c04.html" />
+    <entry file="file://$PROJECT_DIR$/css guild/c05/bg_tile_170pxw.png" />
+    <entry file="file://D:/迅雷下载/stylin3_code_files/chap5_code_files/figures5.10a-5.10b.html" />
+    <entry file="file://$PROJECT_DIR$/css guild/c05/c05.html" />
+    <entry file="file://$PROJECT_DIR$/css guild/c05/c05.css" />
+    <entry file="file://$PROJECT_DIR$/css guild/test.css" />
+    <entry file="file://$PROJECT_DIR$/css guild/test.html" />
+    <entry file="file://$PROJECT_DIR$/css guild/tmp/test1.html" />
+    <entry file="file://$PROJECT_DIR$/css guild/tmp/test1.css" />
+    <entry file="file://$PROJECT_DIR$/css guild/c05/tabel-cell.css" />
+    <entry file="file://$PROJECT_DIR$/css guild/c05/table-cell.html" />
+    <entry file="file://$PROJECT_DIR$/readme.txt" />
+  </component>
+</project>
