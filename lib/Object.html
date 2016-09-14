@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+
+        var createFactoryObj = function (name, age) {
+            var o = new Object();
+            o.name = name;
+            o.age = age;
+            return o;
+        };
+
+        var createFactoryObj1 = createFactoryObj('A',1);
+        var createFactoryObj2 = createFactoryObj('B',2);
+
+        alert(createFactoryObj1 instanceof createFactoryObj);
+
+        //alert(createFactoryObj1.name + ' | ' +createFactoryObj1.age);
+        //alert(createFactoryObj1 instanceof createFactoryObj);
+
+        var ConstructionObj = function (name, age) {
+            this.name = name;
+            this.age = age;
+            this.sayName = function () {
+                return this.name;
+            }
+        };
+        var constructionObj1 = new ConstructionObj('A',1);
+        var constructionObj2 = new ConstructionObj('B',2);
+
+        //alert(constructionObj1.name + ' | ');
+        //alert(typeof constructionObj1);
+        alert(constructionObj1 instanceof ConstructionObj);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

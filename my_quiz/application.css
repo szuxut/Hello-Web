@@ -1,0 +1,18 @@
+.additional {
+    margin-top:100px;
+    border:1px solid lightblue;
+    padding:50px 0 50px 0;
+}
+.btn-top {
+    margin-top:20px;
+}
+.next-additional {
+    width:400px;
+    margin-left:20px;
+}
+.no-display {
+    display: none;
+}
+.progress-location {
+    height:30px;
+}

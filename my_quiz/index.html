@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>智力题库</title>
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <link href="application.css" rel="stylesheet">
+
+        <script src="jquery-3.1.0.js" rel="script"></script>
+        <script src="bootstrap.min.js" rel="script"></script>
+
+        <style>
+        </style>
+    </head>
+    <body>
+        <!--
+            <div class="userinfo">
+                <div class="page-header">
+                    <h2>开心辞典</h2>
+                </div>
+                <div class="well">
+                    <p>下面是一个开心辞典游戏，请先注册，玩的开心~</p>
+                </div>
+
+                <form class="form-signin">
+                    <input type="text" class="form-control" id="username_signup" name="username" placeholder="填写注册账号" autofocus/>
+                    <input type="password" id="password_signup" class="form-control" name="password" placeholder="填写密码" autofocus/>
+                    <button type="submit" id="signUp" class="btn btn-lg btn-primary btn-block">注册</button>
+                </form>
+                <form class="form-login">
+                    <input type="text" class="form-control" id="username_login" name="username" placeholder="填写登录账号" autofocus />
+                    <input type="password" class="form-control" id="password_login" name="password" placeholder="填写密码" autofocus/>
+                    <button type="submit" id="logIn" class="btn btn-lg btn-primary btn-block">登录</button>
+                </form>
+            </div>
+        -->
+        <!--alert bar-->
+        <h4 id="alertLayer" class="alert alert-danger no-display text-center">...</h4>
+        <!--body containt-->
+        <div class="container additional">
+            <div class="row">
+                <h4 id="restartTip" class="no-display col-md-8 text-center">恭喜,您已经全部回答完毕!</h4> <!--all quiz answered then tip this div-->
+                <div id="quiz-body" class="col-md-8 text-center">
+                    <h3 id="question"></h3>
+                    <!-- try bootstrap radio button , but failed
+                                    <div class="btn-group" data-toggle="buttons" id="myRadios">
+                                            <label class="btn btn-primary" id="answer0" for="input1">
+                                                <input type="radio" name="choose" id="input1" autocomplete="off" value="A">
+                                            </label>
+                                        <label class="btn btn-primary active" id="answer1" for="input2" >
+                                            <input type="radio" name="choose" id="input2" autocomplete="off" value="B">
+                                        </label>
+                                        <label class="btn btn-primary" id="answer2" for="input3">
+                                            <input type="radio" name="choose" id="input3" autocomplete="off" value="C">
+                                        </label>
+                                        <label class="btn btn-primary" id="answer3" for="input4">
+                                            <input type="radio" name="choose" id="input4" autocomplete="off" value="D">
+                                        </label>
+                                    </div>
+                                -->
+                     <input value="A" type="radio" id="input1" name="choose" />&nbsp;<label id="answer0" for="input1"></label>
+                     <input value="B" type="radio" id="input2" name="choose" />&nbsp;<label id="answer1" for="input2"></label>
+                     <input value="C" type="radio" id="input3" name="choose" />&nbsp;<label id="answer2" for="input3"></label>
+                     <input value="D" type="radio" id="input4" name="choose" />&nbsp;<label id="answer3" for="input4"></label>
+                </div>
+
+                <div class="col-md-4">
+                    <p>欢迎回来，<span id="username"></span></p>
+                    <p>请回答下面的智力题目,系统会自动评分<br>答对得10分,答错得0分,玩的愉快!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 ">
+                    <div class="row text-center">
+                        <input type="button" class="btn btn-default btn-top" id="back" value="上一题" />
+                        <input type="button" class="btn btn-success btn-top next-additional" id="next" value="下一题" />
+                        <!--
+                        <input type="button" class="btn" id="back" value="上一题" />
+                        <input type="button" class="btn" id="next" value="下一题" />
+                        -->
+                        <input type="button" value="重新开始" id="restartButton" class="btn btn-danger no-display center-block"/>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p>答对:<span id="right"></span><br>答错:<span id="wrong"></span><br>合计:<span id="total"></span></p>
+                </div>
+            </div>
+        </div>
+        <!--animated progress bar-->
+        <div class="progress progress-location center-block" style="margin-top:20px;height: 30px;">
+            <div class="progress-bar progress-bar-info progress-bar-striped active text-center" style="" role="progressbar"  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" >
+            </div>
+        </div>
+        <script src="application.js" rel="script"></script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function MyObject() {
+            var privateVaribale = 10;
+            function privateFunction() {
+                return false;
+            }
+            this.publicMethod = function () {
+                privateVaribale++;
+                return privateFunction();
+            };
+        }
+        var myObj = new MyObject();
+        myObj.a = 'c';
+        alert(myObj.a);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

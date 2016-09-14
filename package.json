@@ -1,0 +1,10 @@
+{
+  "name": "grunt_test",
+  "version": "1.0.1",
+  "devDependencies": {
+    "connect-livereload": "^0.5.4",
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
